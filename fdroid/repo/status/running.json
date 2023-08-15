@@ -1,1 +1,1 @@
-{"commandLine":["/nix/store/pf1c90vdfbrpr77w1l4d6qyccfjcv80v-fdroidserver-2.2.1/bin/fdroid deploy","-vvv"],"endTimestamp":1692049814426,"startTimestamp":1692060606000,"subcommand":"deploy"}
+{"commandLine":["/nix/store/pf1c90vdfbrpr77w1l4d6qyccfjcv80v-fdroidserver-2.2.1/bin/fdroid deploy"],"endTimestamp":1692099745585,"startTimestamp":1692110543000,"subcommand":"deploy"}
