@@ -1,1 +1,1 @@
-{"commandLine":["/nix/store/pf1c90vdfbrpr77w1l4d6qyccfjcv80v-fdroidserver-2.2.1/bin/fdroid deploy"],"endTimestamp":1692100658249,"startTimestamp":1692111456000,"subcommand":"deploy"}
+{"commandLine":["/nix/store/pf1c90vdfbrpr77w1l4d6qyccfjcv80v-fdroidserver-2.2.1/bin/fdroid deploy"],"endTimestamp":1702494894973,"fdroiddata":{"commitId":"c90ed0426d3dc2661fe7d2892dd37193aee7e35a","isDirty":false,"modifiedFiles":[],"untrackedFiles":[]},"startTimestamp":1702505692000,"subcommand":"deploy"}
