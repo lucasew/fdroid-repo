@@ -1,3 +1,20 @@
 #!/usr/bin/env bash
-ln -sf ../git-mirror/fdroid/repo/*.apk .
 
+# Enforce strict execution: fail on error, undefined vars, or pipe failures
+set -euo pipefail
+
+# Centralized error reporting function
+report_error() {
+    local exit_code=$?
+    local line_number=$1
+    echo "ERROR: Script failed at line ${line_number} with exit code ${exit_code}." >&2
+}
+
+# Trap errors and route them to the centralized reporting function
+trap 'report_error $LINENO' ERR
+
+# Ensure we are in the correct directory relative to the script
+cd "$(dirname "$0")"
+
+# Execute the main logic
+ln -sf ../git-mirror/fdroid/repo/*.apk .
