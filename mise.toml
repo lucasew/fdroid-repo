@@ -6,3 +6,5 @@ run = "echo 'Dependencies installed'"
 
 [tasks.ci]
 run = "trunk check -v"
+[tasks.codegen]
+run = "echo \"No codegen available\""
