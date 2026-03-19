@@ -1,0 +1,8 @@
+[tools]
+trunk = "1.3.4"
+
+[tasks.install]
+run = "echo 'Dependencies installed'"
+
+[tasks.ci]
+run = "trunk check -v"
