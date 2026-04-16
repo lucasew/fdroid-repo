@@ -1,0 +1,1 @@
+- 2026-04-16: Ensure markdown files use a single top-level heading and enclose raw URLs in angle brackets.
