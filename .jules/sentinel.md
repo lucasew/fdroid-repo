@@ -1,0 +1,1 @@
+- 2026-04-30: [HIGH] Argument Injection in bash via globbing paths not using -- separator before glob.
