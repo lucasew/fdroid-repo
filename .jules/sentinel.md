@@ -1,0 +1,1 @@
+- 2026-05-01: [MEDIUM] Missing strict execution enforcement can lead to silent failures.
