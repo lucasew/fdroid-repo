@@ -1,0 +1,1 @@
+- 2024-05-02: Use angle brackets for bare URLs in Markdown files to avoid markdownlint/MD034.
