@@ -1,0 +1,1 @@
+- 2026-05-16: [MEDIUM - Ignored Errors] Watch out for bash scripts lacking 'set -euo pipefail', 'trap ERR', or dynamic paths which fail silently or execute unsafely.

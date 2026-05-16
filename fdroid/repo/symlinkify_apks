@@ -1,3 +1,15 @@
 #!/usr/bin/env bash
-ln -sf ../git-mirror/fdroid/repo/*.apk .
+set -euo pipefail
 
+# Dynamically resolve REPO_ROOT based on script location
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+
+# Source the centralized error reporting utility
+source "${REPO_ROOT}/src/utils/error_reporting.sh"
+trap 'report_error $LINENO' ERR
+
+# Change to the appropriate directory, since relative path references are context-dependent.
+cd "${REPO_ROOT}/fdroid/repo" || exit 1
+
+# Safely symlink the apks, using -- to prevent argument injection
+ln -sf -- ../git-mirror/fdroid/repo/*.apk .
