@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 MD025 -->
 ## IGNORE: Committing Agent State Files
 
 **- Pattern:** Committing individual agent learning logs or execution journals to the repository (e.g., `.jules/janitor.md`, `.jules/sentinel.md`, `.jules/AGENTS.md`).
