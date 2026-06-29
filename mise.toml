@@ -1,0 +1,2 @@
+[tasks]
+test = "test -f fdroid/repo/index.jar"
