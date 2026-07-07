@@ -2,7 +2,7 @@
 
 Here are some apps that I can no longer find, so I keep their APKs in my backups.
 
-Some of them are actually abandoned, but they might still be as useful as many of the lower-quality apps found on the Internet today.
+Some are abandoned but still beat many lower-quality apps online today.
 
 # Usage
 See https://lucasew.github.io/fdroid-repo/fdroid/repo/ for instructions.
