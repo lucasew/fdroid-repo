@@ -1,0 +1,16 @@
+# Authority for revancedbot. Generated fdroid/config.yml is gitignored.
+repo_name: lucasew's F-Droid Repo
+repo_url: https://lucasew.github.io/fdroid-repo/fdroid/repo
+repo_description: >
+  Apps that I like and are neither available in Play Store nor F-Droid.
+  Also ReVanced-patched apps built by revancedbot.
+
+downloaders:
+  - aptoide
+  - apkpure
+  - apkmirror
+
+browser:
+  cdp_url: ""
+
+log_level: info
