@@ -1,8 +1,8 @@
 # lucasew's F-Droid repo
 
-Here are some apps that I can no longer find, so I keep their APKs in my backups.
+This repository serves as an archive for applications that are no longer readily available, preserving their APKs from backups.
 
-Some are abandoned but still beat many lower-quality apps online today.
+Some of these applications are abandoned but remain superior to many modern alternatives.
 
 # Usage
 See https://lucasew.github.io/fdroid-repo/fdroid/repo/ for instructions.
